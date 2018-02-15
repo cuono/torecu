@@ -1,0 +1,6 @@
+a = 9
+(print ___a * 9)
+
+#? 2 == 9{
+  print "hello world"
+#}

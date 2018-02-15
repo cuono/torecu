@@ -1,0 +1,21 @@
+[NO] should X and Y for Stoken struct be reserved?
+     then in tokenizer.c tokenize() assign X and Y
+     automatically, but expect something else to
+     actually advance X and Y?
+[OK] make for TORECU/*.c to avoid recompile for every TORECU/*.c
+[OK] CLEANUP token.c ttn_of_vaoca
+[OK] rename of callable to calan
+[NO] verbosity for TO and RE and CU like LISP
+[OK] callable can return one
+[NO] callable can return several
+[OK] ttn_of_vaoca in cutenizer.h
+[NO] argv for calan in CU
+[OK] change = to & for TTN
+     eg ttnSproperty_type denotes TTN is type
+     tt.NUMBER = ttnSstring & ttnSproperty_type;
+[NO] TORECU/whatever_name.c can TO and RE and CU
+     but how is definition of type there like?
+     struct some_type_t{
+     	    int a_member;
+     };
+     struct some_type_t some_type;

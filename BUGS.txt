@@ -1,0 +1,32 @@
+
+/*
+	return of callable
+	eg as REsubtraction and REaddition may prefix or infix
+	depending on context
+*/
+
+/*
+	token.c unlink_argl for INFIX ?
+	[OK] ??? ???
+*/
+
+/*
+	tokenize() in tokenizer.c
+	"MOD" and "MUL"
+	for 'U' in "MUL" is "inrecognizeable character/string 'U'"
+*/
+
+/*
+	TOadd matches TOadd and TOsymbol
+	algorithm in tokenizer.c
+*/
+Stok_dclr tok_dclr[]={
+	{.regex="add",
+	 .level=0,
+	 .length=3,
+	 .tokenizer=TOadd},
+	 {.regex="a-z",
+	  .level=1,
+	  .length=1,
+	  .tokenizer=TOsymbol}
+};

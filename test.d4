@@ -1,0 +1,13 @@
+#!/bin/d4
+k ~ WAV "kick.wav"
+s ~ WAV "snare.wav"
+h ~ WAV "hihat.wav"
+#23456789ABC#X-axis
+------------#Y-axis size of buffer
+   kk       #1
+      ssss  #2
+ h h h h h h#3
+'beto0'     #name of table/buffer
+
+'beto0'.vol = 125% >> 50 MS ^ 3
+
